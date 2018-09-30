@@ -23,7 +23,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a href="{{ route('user.signup') }}">Sign up</a></li>
-            <li><a href="#">Sign in</a></li>
+            <li><a href="{{ route('user.signin') }}">Sign in</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Logout</a></li>
           </ul>
